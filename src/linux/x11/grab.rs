@@ -197,7 +197,7 @@ convert_keys!(
     KEY_F21, F21,
     KEY_F22, F22,
     KEY_F23, F23,
-    KEY_F24, F24,
+    KEY_F24, F24
 );
 
 fn evdev_event_to_rdev_event(
