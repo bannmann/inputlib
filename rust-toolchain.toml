@@ -1,0 +1,5 @@
+[toolchain]
+# Why pin the Rust toolchain? Without that, PR builds bring in new linter updates, causing code not touched by the PR
+# to suddenly break. It's much preferable to use separate PRs that only bump the toolchain version and fix any newly
+# discovered linter errors.
+channel = "1.87.0"
